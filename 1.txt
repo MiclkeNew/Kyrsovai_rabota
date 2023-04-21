@@ -1,0 +1,6 @@
+import pandas as pd
+data = pd.read_excel('https://github.com/ivanyarigin/geo23/raw/main/210_1.xlsx', sheet_name = 'Новиков')
+x1 = data.iloc[:,0].tolist()
+x2 = data.iloc[:,1].tolist()
+print(x1)
+print(x2)
